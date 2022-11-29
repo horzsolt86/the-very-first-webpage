@@ -1,0 +1,176 @@
+* {
+    font-family: 'Open Sans', sans-serif; 
+    color: darkslategray;
+}
+
+body {
+    max-width: 1920px;
+    margin: auto;
+}
+
+/* NAVBAR SETTINGS */
+
+.nav-link {
+    font-size: 1.2rem;
+    color: darkslategray;
+}
+
+.nav-link:hover {
+    background-color: rgb(0,0,0,0.7);
+    color:white;
+}
+
+.nav {
+    padding: 10px 0;
+}
+
+/* HEADER SETTINGS */
+
+.header-container {
+    background-image: url("image/header_bck.jpg");
+    height: 80vh;
+    background-size: cover;
+   }
+
+
+.header-title-box {
+    text-align: center;
+    padding: 5% 7%;
+    background-color: rgb(0,0,0,0.7);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+.header-h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+}
+
+.header-para {
+    font-size: 1.5rem;
+    color: #4FA095;
+}
+
+/* FEATURES SETTINGS */
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.feature-box {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.feature-icon {
+    color: #4FA095;
+    width: 40%;
+    height: auto;
+}
+
+h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.h2-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px;
+}
+
+h2 {
+    color: #4FA095;
+    padding: 30px 60px;
+    border-top: 1px solid #4FA095;
+    border-bottom: 1px solid #4FA095;
+}
+
+/* bemutatkozás */
+
+.introducing-container {
+    background-image: url("image/web-design.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.bemutatkozas {
+text-align: center;
+margin: 20px;
+padding: 50px 20px;
+background-color: rgb(255,255,255,0.7);
+border-top-left-radius: 10%;
+border-bottom-right-radius: 10%;
+}
+
+.self-image {
+    height: 200px;
+    border-radius: 100%;
+    /* border: 5px solid rgba(255, 255, 255, 0.7); */
+}
+
+.bemutatkozas h4, .lorem {
+    color: #4FA095;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: large;
+}
+
+.bemutatkozas h4 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    }
+
+@media only screen and (max-width: 600px) {
+    .bemutatkozas {
+      text-align: center;
+    }
+}
+
+.card-group {
+    margin: 20px 10px;
+}
+
+.card {
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.card-img-top {
+    margin: auto;
+    width: 150px;
+    height: auto;
+}
+
+.card-title {
+    font-weight:bold;
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.footer-box {
+    background-color: #4FA095;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.footer-text {
+    color: rgb(0, 0, 0,0.5);
+    font-weight: bold;
+    padding:0;
+    margin:0;
+}
